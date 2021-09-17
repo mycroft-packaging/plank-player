@@ -1,0 +1,26 @@
+Source: plank-player
+Section: libs
+Priority: optional
+Maintainer: Harald Sitter <sitter@kde.org>
+Build-Depends: cmake (>= 2.8.6~),
+               debhelper,
+               debhelper-compat (= 12),
+               extra-cmake-modules,
+               libqt5websockets5-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtmultimedia5-dev
+Standards-Version: 4.2.1
+
+Package: plank-player
+Architecture: any
+Depends: gstreamer1.0-plugins-bad,
+         gstreamer1.0-plugins-good,
+         qml-module-org-kde-kirigami2,
+         qml-module-qt-labs-folderlistmodel,
+         qml-module-qtmultimedia,
+         qml-module-qtquick-virtualkeyboard,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: ((TBD))
+ ((TBD))
